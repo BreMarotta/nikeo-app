@@ -3,9 +3,9 @@ class CreateQuotes < ActiveRecord::Migration[7.0]
     create_table :quotes do |t|
       t.integer :quotable_id
       t.string :quotable_type
-      
+
       t.string :text
-      t.sting :img
+      t.string :img
       t.string :interp
 
       t.timestamps
